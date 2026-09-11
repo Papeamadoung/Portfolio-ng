@@ -1,0 +1,5 @@
+﻿User-agent: *
+Allow: /
+
+Sitemap: https://mon-portfolio-five-livid.vercel.app/sitemap.xml
+

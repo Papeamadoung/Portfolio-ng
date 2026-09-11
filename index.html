@@ -1,0 +1,957 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Pape Amadou Niang - Portfolio</title>
+  <meta name="description" content="Portfolio de Pape Amadou Niang, étudiant en Licence Informatique de Gestion à Dakar. Développeur Web PHP, Symfony et initié à l'IA générative.">
+  <meta name="keywords" content="Pape Amadou Niang, PHP, Symfony, développement web, IA générative, Prompt Engineering, Dakar, Sénégal">
+
+  <!-- Open Graph & Social Sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://mon-portfolio-five-livid.vercel.app/">
+  <meta property="og:title" content="Pape Amadou Niang — Portfolio Développeur Web & IA">
+  <meta property="og:description" content="Portfolio de Pape Amadou Niang, étudiant en Licence Informatique de Gestion à Dakar. Projets Symfony, PHP, Web et IA générative.">
+  <meta property="og:image" content="https://mon-portfolio-five-livid.vercel.app/assets/img/person/pape-avatar.jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Pape Amadou Niang — Portfolio Développeur Web & IA">
+  <meta name="twitter:description" content="Découvrez mes réalisations web, projets Symfony et compétences en IA générative.">
+  <meta name="twitter:image" content="https://mon-portfolio-five-livid.vercel.app/assets/img/person/pape-avatar.jpeg">
+
+  <!-- Favicons -->
+  <link href="assets/img/person/pape-avatar.jpeg" rel="icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,7<PASSWORD>;0,8<PASSWORD>;0,9<PASSWORD>;1,2<PASSWORD>;1,3<PASSWORD>;1,4<PASSWORD>;1,5<PASSWORD>;1,6<PASSWORD>;1,7<PASSWORD>;1,8<PASSWORD>;1,9<PASSWORD>&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <script>
+    if (localStorage.getItem('portfolio-theme') === 'light') {
+      document.documentElement.classList.add('light-theme');
+    }
+  </script>
+
+  <!-- =======================================================
+  * Template Name: Craftivo
+  * Template URL: https://bootstrapmade.com/craftivo-bootstrap-portfolio-template/
+  * Updated: Oct 04 2025 with Bootstrap v5.3.8
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <img src="assets/img/person/pape-avatar.jpeg" alt="Photo de Pape Amadou Niang" class="img-fluid rounded">
+      </a>
+
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Accueil</a></li>
+          <li><a href="#about">À propos</a></li>
+          <li><a href="#resume">CV</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li> -->
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <!-- Theme Toggle Button -->
+      <button id="theme-toggle" class="theme-toggle" aria-label="Changer de thème">
+        <i class="bi bi-sun" id="theme-toggle-icon"></i>
+      </button>
+
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <img src="assets/img/person/pape-avatar.jpeg" alt="Portrait de Pape Amadou Niang" data-aos="fade-in">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <h2>Salut, je suis Pape Amadou Niang</h2>
+            <p>Je suis <span class="typed" data-typed-items="étudiant en Informatique de Gestion, développeur web en formation, curieux & initié à l'IA Générative, passionné par les bases de données et la Data"></span><span class="typed-cursor" aria-hidden="true"></span></p>
+            <div class="social-links">
+              <a href="mailto:Papeamadouniang1@gmail.com" aria-label="Envoyer un email"><svg class="social-logo" viewBox="0 0 24 24" aria-hidden="true"><path d="M2.5 5.5A2.5 2.5 0 0 1 5 3h14a2.5 2.5 0 0 1 2.5 2.5v13A2.5 2.5 0 0 1 19 21H5a2.5 2.5 0 0 1-2.5-2.5v-13ZM5 5a.5.5 0 0 0-.5.5v.26l7.5 5.63 7.5-5.63V5.5A.5.5 0 0 0 19 5H5Zm14.5 3.26-6.9 5.18a1 1 0 0 1-1.2 0L4.5 8.26v10.24A.5.5 0 0 0 5 19h14a.5.5 0 0 0 .5-.5V8.26Z"/></svg></a>
+              <a href="https://www.linkedin.com/in/pape-amadou-niang-0b0b0b/" target="_blank" rel="noopener noreferrer" aria-label="Profil LinkedIn"><svg class="social-logo" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.48v6.26ZM5.32 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM3.54 20.45H7.1V9H3.54v11.45Z"/></svg></a>
+              <a href="https://www.instagram.com/papeamadouniang/" target="_blank" rel="noopener noreferrer" aria-label="Profil Instagram"><svg class="social-logo" viewBox="0 0 24 24" aria-hidden="true"><path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9a5.5 5.5 0 0 1-5.5 5.5h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2Zm0 2A3.5 3.5 0 0 0 4 7.5v9A3.5 3.5 0 0 0 7.5 20h9a3.5 3.5 0 0 0 3.5-3.5v-9A3.5 3.5 0 0 0 16.5 4h-9Zm9.75 1.5a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span class="subtitle">À propos</span>
+        <h2>À propos de moi</h2>
+<p>
+Je suis étudiant en Licence Informatique de Gestion à l’UCAO ISG Saint Michel de Dakar. Passionné par le développement web, le backend, les bases de données et les systèmes d’information, j'intègre également l'Intelligence Artificielle générative dans mes flux de travail pour accélérer la conception et l'innovation. Je développe progressivement un profil Full-Stack Developer, avec une affinité pour PHP, Symfony, Twig, Tailwind CSS, Bootstrap, JavaScript, SQL, MySQL, MariaDB et les outils d'IA.
+</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-5">
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="150">
+            <div class="profile-card">
+              <div class="profile-header">
+                <div class="profile-avatar">
+                  <img src="assets/img/person/pape-avatar.jpeg" class="img-fluid" alt="Pape Amadou Niang">
+                  <div class="status-indicator"></div>
+                </div>
+                <h3>Pape Amadou Niang</h3>
+                <span class="role">Étudiant en Informatique de Gestion</span>
+                <div class="rating">
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-fill"></i>
+                  <i class="bi bi-star-half"></i>
+                  <span>4.8</span>
+                </div>
+              </div>
+
+              <div class="profile-stats">
+              <div class="stat-item">
+                <h4>3</h4>
+                <p>Projets réalisés</p>
+              </div>
+              <div class="stat-item">
+                <h4>1</h4>
+                <p>Année de formation</p>
+              </div>
+            </div>
+
+              <div class="profile-actions">
+                <a href="assets/cv/Cv1.02.pdf" class="btn-primary" download><i class="bi bi-download"></i> Télécharger le CV</a>
+                <a href="#contact" class="btn-secondary"><i class="bi bi-envelope"></i> Contact</a>
+              </div>
+
+              <div class="social-connect">
+                <a href="mailto:Papeamadouniang1@gmail.com" aria-label="Envoyer un email"><svg class="social-logo" viewBox="0 0 24 24" aria-hidden="true"><path d="M2.5 5.5A2.5 2.5 0 0 1 5 3h14a2.5 2.5 0 0 1 2.5 2.5v13A2.5 2.5 0 0 1 19 21H5a2.5 2.5 0 0 1-2.5-2.5v-13ZM5 5a.5.5 0 0 0-.5.5v.26l7.5 5.63 7.5-5.63V5.5A.5.5 0 0 0 19 5H5Zm14.5 3.26-6.9 5.18a1 1 0 0 1-1.2 0L4.5 8.26v10.24A.5.5 0 0 0 5 19h14a.5.5 0 0 0 .5-.5V8.26Z"/></svg></a>
+                <a href="https://github.com/Papeamadoung" target="_blank" rel="noopener noreferrer" aria-label="Profil GitHub"><svg class="social-logo" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.18-3.37-1.18-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.9 1.53 2.35 1.09 2.92.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02A9.55 9.55 0 0 1 12 7.99c.85 0 1.7.12 2.5.34 1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"/></svg></a>
+                <a href="https://www.linkedin.com/in/pape-amadou-niang-0b0b0b/" target="_blank" rel="noopener noreferrer" aria-label="Profil LinkedIn"><svg class="social-logo" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.48v6.26ZM5.32 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM3.54 20.45H7.1V9H3.54v11.45Z"/></svg></a>
+                <a href="https://www.instagram.com/papeamadouniang/" target="_blank" rel="noopener noreferrer" aria-label="Profil Instagram"><svg class="social-logo" viewBox="0 0 24 24" aria-hidden="true"><path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9a5.5 5.5 0 0 1-5.5 5.5h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2Zm0 2A3.5 3.5 0 0 0 4 7.5v9A3.5 3.5 0 0 0 7.5 20h9a3.5 3.5 0 0 0 3.5-3.5v-9A3.5 3.5 0 0 0 16.5 4h-9Zm9.75 1.5a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0-3-3Z"/></svg></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-8" data-aos="fade-left" data-aos-delay="200">
+            <div class="content-wrapper">
+              <div class="bio-section">
+                <div class="section-tag">À propos de moi</div>
+                  <h2>Transformer les idées en réalités digitales</h2>
+                  <p>
+                    Je crois en la puissance de la technologie pour créer des expériences uniques et innovantes. 
+                    Mon objectif est de concevoir des solutions numériques qui allient performance, esthétique et simplicité d’utilisation.
+                  </p>
+                  <p>
+                    Avec une approche centrée sur l’utilisateur et une passion pour le développement moderne, 
+                    je m’engage à transformer chaque idée en un produit concret, efficace et durable. J'intègre également l'intelligence artificielle générative (LLMs, API, assistance au développement) pour accélérer le prototypage, optimiser l'architecture du code et concevoir des expériences web plus intelligentes.
+                  </p>
+              </div>
+
+                  <div class="details-grid">
+                    <div class="detail-item" data-aos="fade-up" data-aos-delay="250">
+                      <i class="bi bi-briefcase"></i>
+                      <div class="detail-content">
+                        <span>Expérience</span>
+                        <strong>1+ </strong>
+                      </div>
+                    </div>
+
+                  <div class="detail-item" data-aos="fade-up" data-aos-delay="300">
+      <i class="bi bi-mortarboard"></i>
+      <div class="detail-content">
+        <span>Diplôme</span>
+                    <strong>Licence Informatique de Gestion</strong>
+      </div>
+    </div>
+
+    <div class="detail-item" data-aos="fade-up" data-aos-delay="350">
+      <i class="bi bi-geo-alt"></i>
+      <div class="detail-content">
+        <span>Localisation</span>
+        <strong>Dakar, Sénégal</strong>
+      </div>
+    </div>
+
+    <div class="detail-item" data-aos="fade-up" data-aos-delay="100">
+      <i class="bi bi-envelope"></i>
+      <div class="detail-content">
+        <span>Email</span>
+        <strong>Papeamadouniang1@gmail.com</strong>
+      </div>
+    </div>
+
+    <div class="detail-item" data-aos="fade-up" data-aos-delay="150">
+      <i class="bi bi-phone"></i>
+      <div class="detail-content">
+        <span>Téléphone</span>
+        <strong>+221 76 337 70 79</strong>
+      </div>
+    </div>
+
+    <div class="detail-item" data-aos="fade-up" data-aos-delay="200">
+      <i class="bi bi-calendar-check"></i>
+      <div class="detail-content">
+        <span>Disponibilité</span>
+                    <strong>Étudiant — passage en Licence 2</strong>
+      </div>
+    </div>
+  </div><!-- End details-grid -->
+
+              <div class="skills-showcase" data-aos="fade-up" data-aos-delay="250">
+  <div class="section-tag">Compétences principales</div>
+  <h3>Maîtrise technique</h3>
+
+  <div class="skills-list skills-animation">
+
+    <div class="skill-item">
+      <div class="skill-info">
+        <span class="skill-name">PHP &amp; Symfony</span>
+      </div>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+    </div>
+
+    <div class="skill-item">
+      <div class="skill-info">
+        <span class="skill-name">Twig &amp; Tailwind CSS</span>
+      </div>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+    </div>
+
+    <div class="skill-item">
+      <div class="skill-info">
+        <span class="skill-name">JavaScript &amp; Node.js</span>
+      </div>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+    </div>
+
+    <div class="skill-item">
+      <div class="skill-info">
+        <span class="skill-name">SQL, MySQL &amp; MariaDB</span>
+      </div>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+    </div>
+
+    <div class="skill-item">
+      <div class="skill-info">
+        <span class="skill-name">HTML, CSS &amp; Bootstrap</span>
+      </div>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+    </div>
+
+    <div class="skill-item">
+      <div class="skill-info">
+        <span class="skill-name">Git, GitHub &amp; Composer</span>
+      </div>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+    </div>
+
+    <div class="skill-item">
+      <div class="skill-info">
+        <span class="skill-name">IA Générative &amp; Prompt Engineering (LLMs, API, Workflow)</span>
+      </div>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+    </div>
+  </div><!-- End skills-list -->
+  </div><!-- End skills-showcase -->
+
+            </div><!-- End content-wrapper -->
+          </div><!-- End col-lg-8 -->
+
+        </div><!-- End row gy-5 -->
+      </div><!-- End container -->
+
+    </section><!-- /About Section -->
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span class="subtitle">Resume</span>
+       <h2>En Résumé</h2>
+    <p>
+    Étudiant en Licence Informatique de Gestion, je développe progressivement mes compétences en
+    <strong>PHP, Symfony, bases de données et développement web</strong> au travers de projets personnels et académiques.
+    </p>
+
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-5">
+          <div class="col-lg-6">
+            <div class="experience-section">
+              <div class="section-header" data-aos="fade-right" data-aos-delay="200">
+                <div class="header-content">
+                  <span class="section-badge">Experience & Projets Personnels</span>
+                <h2>Mon Parcours & Mes Meilleurs Projets</h2>
+<p>Découvrez mes expériences professionnelles ainsi que mes projets personnels et académiques les plus marquants, reflétant mes compétences en développement Full Stack et ma passion pour la création d’applications innovantes.</p>
+
+                </div>
+              </div>
+
+              <div class="experience-cards">
+                <div class="exp-card featured" data-aos="zoom-in" data-aos-delay="300">
+                  <div class="card-header">
+                    <div class="company-logo">
+                      <i class="bi bi-buildings"></i>
+                    </div>
+                    <div class="period-badge">2026</div>
+                  </div>
+                  <div class="card-body">
+                    <h3>TechMen — Smartphones et accessoires</h3>
+                    <p class="company-name">Projet personnel</p>
+                    <span class="duration">2026</span>
+                    <p class="description">Boutique e-commerce dédiée aux smartphones et accessoires. Le projet propose un catalogue, une recherche, un panier persistant, l'authentification et la transmission des commandes par WhatsApp.</p>
+                    <div class="skills-tags">
+                      <span class="skill-tag">HTML &amp; CSS</span>
+                      <span class="skill-tag">JavaScript</span>
+                      <span class="skill-tag">WhatsApp</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="exp-card" data-aos="zoom-in" data-aos-delay="350">
+                  <div class="card-header">
+                    <div class="company-logo">
+                      <i class="bi bi-mortarboard"></i>
+                    </div>
+                    <div class="period-badge">2026</div>
+                  </div>
+                  <div class="card-body">
+                    <h3>Formation Web</h3>
+                    <p class="company-name">Projet réalisé</p>
+                    <span class="duration">2026</span>
+                    <p class="description">
+                      Projet web dédié à la présentation et à l’apprentissage du développement web. Le projet utilise HTML, CSS et JavaScript.
+                    </p>
+                    <div class="skills-tags">
+                      <span class="skill-tag">HTML &amp; CSS</span>
+                      <span class="skill-tag">JavaScript</span>
+                      <span class="skill-tag">Formation Web</span>
+                      <span class="skill-tag">Responsive design</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="exp-card" data-aos="zoom-in" data-aos-delay="400">
+                  <div class="card-header">
+                    <div class="company-logo">
+                      <i class="bi bi-person-circle"></i>
+                    </div>
+                    <div class="period-badge">En préparation</div>
+                  </div>
+                  <div class="card-body">
+                    <h3>Projet Immo — Plateforme immobilière</h3>
+                    <p class="company-name">Projet personnel</p>
+                    <span class="duration">En préparation — 2026</span>
+                    <p class="description">
+                      Projet immobilier actuellement en préparation, destiné à présenter des biens, faciliter la recherche de logements et gérer les demandes de contact.
+                    </p>
+                    <div class="skills-tags">
+                      <span class="skill-tag">En développement</span>
+                      <span class="skill-tag">Immobilier</span>
+                      <span class="skill-tag">Annonces</span>
+                      <span class="skill-tag">Web</span>
+                    </div>
+                  </div>
+                </div>
+
+
+                
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="education-section">
+              <div class="section-header" data-aos="fade-left" data-aos-delay="200">
+                <div class="header-content">
+                 <span class="section-badge">Éducation</span>
+<h2>Parcours Académique</h2>
+<p>Voici un aperçu de mon parcours scolaire et universitaire, mettant en avant les formations et compétences acquises qui soutiennent mes projets et mon développement professionnel.</p>
+
+                </div>
+              </div>
+
+              <div class="education-timeline" data-aos="fade-left" data-aos-delay="300">
+                <div class="timeline-track">
+                  <div class="timeline-item">
+                    <div class="timeline-marker">
+                      <i class="bi bi-mortarboard-fill"></i>
+                    </div>
+                    <div class="timeline-content">
+                      <div class="education-meta">
+                        <span class="year-range">Depuis 2025</span>
+                        <span class="degree-level">Licence 2</span>
+                      </div>
+                      <h4>LICENCE INFORMATIQUE DE GESTION</h4>
+                      <p class="institution">UCAO ISG Saint Michel — Dakar</p>
+                      <p class="description">Formation en informatique de gestion, développement d’applications, bases de données et systèmes d’information.
+</p>
+                      <div class="achievement">
+                        <i class="bi bi-award"></i>
+                        <span>Étudiant — passage en Licence 2</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="timeline-item">
+                    <div class="timeline-marker">
+                      <i class="bi bi-mortarboard-fill"></i>
+                    </div>
+                    <div class="timeline-content">
+                      <div class="education-meta">
+                        <span class="year-range">2024 - 2025</span>
+                        <span class="degree-level">Baccalauréat</span>
+                      </div>
+                      <h4>BACCALAURÉAT L2</h4>
+                      <p class="institution">COURS SECONDAIRE SACRE COEUR</p>
+                      <div class="achievement">
+                        <i class="bi bi-award"></i>
+                        <span>Sciences et Technologies de l’Économie et de la Gestion</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="timeline-item">
+                    <div class="timeline-marker">
+                      <i class="bi bi-mortarboard-fill"></i>
+                    </div>
+                    <div class="timeline-content">
+                      <div class="education-meta">
+                        <span class="year-range">2021 - 2022</span>
+                        <span class="degree-level">BFEM</span>
+                      </div>
+                      <h4>BFEM</h4>
+                      <p class="institution">keur Rokhaya</p>
+                      <div class="achievement">
+                        <i class="bi bi-award"></i>
+                        <span>Brevet de fin d’études moyennes</span>
+                      </div>
+                    </div>
+                  </div>
+                   <div class="timeline-item">
+                    <div class="timeline-marker">
+                      <i class="bi bi-mortarboard-fill"></i>
+                    </div>
+                    <div class="timeline-content">
+                      <div class="education-meta">
+                        <span class="year-range">2015 - 2016</span>
+                        <span class="degree-level">CFEE</span>
+                      </div>
+                      <h4>CFEE</h4>
+                      <p class="institution">ORT SEN</p>
+                      <div class="achievement">
+                        <i class="bi bi-award"></i>
+                        <span>Certificat de Fin d’Études Élémentaires</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- <div class="timeline-item">
+                    <div class="timeline-marker">
+                      <i class="bi bi-patch-check-fill"></i>
+                    </div>
+                    <div class="timeline-content">
+                      <div class="education-meta">
+                        <span class="year-range">2016 - 2023</span>
+                        <span class="degree-level">Certificates</span>
+                      </div>
+                      <h4>Professional Certifications</h4>
+                      <div class="certifications-list">
+                        <div class="cert-item">
+                          <span class="cert-name">Advanced UX Research</span>
+                          <span class="cert-year">2023</span>
+                        </div>
+                        <div class="cert-item">
+                          <span class="cert-name">Design Leadership</span>
+                          <span class="cert-year">2022</span>
+                        </div>
+                        <div class="cert-item">
+                          <span class="cert-name">Digital Strategy</span>
+                          <span class="cert-year">2021</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Resume Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span class="subtitle">Services</span>
+      <h2>Services</h2>
+<p>Je propose des solutions complètes en développement web et mobile, en conception d’applications sécurisées et performantes, ainsi qu’un accompagnement technique pour vos projets digitaux. Mon objectif est de transformer vos idées en produits fonctionnels et innovants.</p>
+
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="100">
+            <div class="service-item">
+              <div class="icon-wrapper">
+                <i class="bi bi-palette"></i>
+              </div>
+              <h4>Identité Visuelle</h4>
+<p>Création d’une identité visuelle cohérente et impactante pour votre marque : logo, charte graphique, typographie et couleurs. L’objectif est de renforcer votre image, améliorer la reconnaissance de votre marque et assurer une communication harmonieuse sur tous vos supports.</p>
+
+
+              <a href="service-details.html" class="read-more">
+                <span>Découvrir</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+            <div class="service-item featured">
+              <div class="icon-wrapper">
+                <i class="bi bi-layout-text-window-reverse"></i>
+              </div>
+             <h4>UI/UX Design</h4>
+<p>Conception d’interfaces utilisateur intuitives et attrayantes, centrées sur l’expérience utilisateur. Je crée des designs qui facilitent la navigation, améliorent l’engagement et rendent vos applications web et mobiles agréables à utiliser.</p>
+              <a href="service-details.html" class="read-more">
+                <span>Découvrir</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+            <div class="service-item">
+              <div class="icon-wrapper">
+                <i class="bi bi-code-slash"></i>
+              </div>
+              <h4>Développement Web &amp; Solutions</h4>
+<p>Développement d’applications web et back-end avec PHP, Symfony, Twig, JavaScript, SQL et intégration des outils d’IA générative pour booster la productivité et les fonctionnalités.</p>
+              <a href="service-details.html" class="read-more">
+                <span>Découvrir</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+            <div class="service-item">
+              <div class="icon-wrapper">
+                <i class="bi bi-phone"></i>
+              </div>
+              <h4>Applications Mobiles</h4>
+<p>Développement d’interfaces web responsives avec HTML, CSS, Bootstrap et Tailwind CSS, en veillant à proposer une expérience claire sur tous les écrans.</p>
+              <a href="service-details.html" class="read-more">
+                <span>Découvrir</span>
+                   <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>       
+
+        <div class="row mt-5">
+          <div class="col-12" data-aos="fade-up" data-aos-delay="200">
+            <div class="cta-box">
+              <div class="row align-items-center">
+                <div class="col-lg-8">
+                 <h3>Transformez Votre Vision en Réalité</h3>
+<p>Collaborez avec nous pour donner vie à vos idées grâce à des solutions innovantes, conçues sur mesure pour répondre à vos besoins.</p>
+
+                </div>
+                <div class="col-lg-4 text-lg-end text-center">
+                  <a href="service-details.html" class="cta-btn">Lancer Votre Projet</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span class="subtitle">Portfolio</span>
+<h2>Mes Projets</h2>
+<p>Découvrez une sélection de mes projets académiques et personnels, mettant en avant mes compétences en développement web et mobile, UI/UX design, et solutions innovantes. Chaque projet illustre mon savoir-faire et ma capacité à transformer des idées en applications fonctionnelles.</p>
+
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="200">
+            <li data-filter="*" class="filter-active">Tous les projets</li>
+            <li data-filter=".filter-creative">E-commerce</li>
+            <li data-filter=".filter-digital">Développement web</li>
+            <li data-filter=".filter-strategy">En préparation</li>
+          </ul>
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="300">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-creative">
+              <div class="portfolio-card">
+                <div class="portfolio-image-container">
+                  <img src="assets/img/portfolio/iphone 15 pro.jpg" alt="iPhone 15 Pro" class="img-fluid" loading="lazy">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-info">
+                      <span class="project-category">E-commerce</span>
+                      <h4>TechMen — Smartphones et accessoires</h4>
+                    </div>
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/iphone 15 pro.jpg" class="glightbox portfolio-link">
+                        <i class="bi bi-plus-lg"></i>
+                      </a>
+                      <a href="projet-techmen.html" class="portfolio-details" aria-label="Voir les détails du projet">
+                        <i class="bi bi-arrow-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-meta">
+                  <div class="project-tags">
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">E-commerce</span>
+                  </div>
+                  <div class="project-year">2026</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-digital">
+              <div class="portfolio-card">
+                <div class="portfolio-image-container">
+                  <img src="assets/img/portfolio/portrait2.jpg" alt="Formation Web" class="img-fluid" loading="lazy">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-info">
+                      <span class="project-category">Développement web</span>
+                      <h4>Formation Web</h4>
+                    </div>
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/portrait2.jpg" class="glightbox portfolio-link">
+                        <i class="bi bi-plus-lg"></i>
+                      </a>
+                      <a href="projet-formation-web.html" class="portfolio-details" aria-label="Voir les détails du projet">
+                        <i class="bi bi-arrow-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-meta">
+                  <div class="project-tags">
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">Node.js</span>
+                  </div>
+                  <div class="project-year">2026</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-strategy">
+              <div class="portfolio-card">
+                <div class="portfolio-image-container">
+                  <img src="assets/img/portfolio/villa.png" alt="Projet Immo en préparation" class="img-fluid" loading="lazy">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-info">
+                      <span class="project-category">Immobilier</span>
+                      <h4>Projet Immo — Plateforme immobilière</h4>
+                    </div>
+                    <div class="portfolio-actions">
+                      <a href="assets/img/portfolio/villa.png" class="glightbox portfolio-link">
+                        <i class="bi bi-plus-lg"></i>
+                      </a>
+                      <a href="projet-immo.html" class="portfolio-details" aria-label="Voir les détails du projet">
+                        <i class="bi bi-arrow-right"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-meta">
+                  <div class="project-tags">
+                    <span class="tag">Annonces</span>
+                    <span class="tag">Gestion de biens</span>
+                  </div>
+                  <div class="project-year">En préparation — 2026</div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="portfolio-bottom" data-aos="fade-up" data-aos-delay="400">
+          <div class="row align-items-center">
+            <div class="col-lg-8">
+              <h3>Vous aimez ce que vous voyez ?</h3>
+<p>Vous avez un projet ou une idée ? Je suis prêt à collaborer pour transformer vos idées en solutions concrètes et innovantes.</p>
+            </div>
+            <div class="col-lg-4 text-lg-end">
+              <a href="#contact" class="btn btn-accent">Travaillons Ensemble</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span class="subtitle">Contact</span>
+        <h2>Contact</h2>
+<p>Vous avez un projet ou une question ? N’hésitez pas à me contacter pour échanger sur vos idées et découvrir comment je peux vous aider à les concrétiser.</p>
+
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4">
+            <div class="info-item">
+              <div class="icon-wrapper">
+                <i class="bi bi-geo-alt"></i>
+              </div>
+              <div>
+                <h3>Adresse</h3>
+                <p>Dakar, Sénégal</p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="icon-wrapper">
+                <i class="bi bi-telephone"></i>
+              </div>
+              <div>
+                <h3>Appelez-moi</h3>
+                <p><a href="https://wa.me/221763377079">+221 76 337 70 79</a></p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="icon-wrapper">
+                <i class="bi bi-envelope"></i>
+              </div>
+              <div>
+                <h3>Email</h3>
+                <p><a href="mailto:Papeamadouniang1@gmail.com">Papeamadouniang1@gmail.com</a></p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-8">
+            <form action="/api/contact" method="post" class="php-email-form">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Votre nom complet" autocomplete="name" maxlength="100" required>
+                </div>
+
+                <div class="col-md-6">
+                  <input type="email" class="form-control" name="email" placeholder="Votre email" autocomplete="email" maxlength="254" required>
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Objet" maxlength="150" required>
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Message" maxlength="5000" required></textarea>
+                  <div class="visually-hidden" aria-hidden="true"><label>Ne pas remplir ce champ <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Chargement... </div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Votre message a été envoyé avec succès. Merci !</div>
+
+                  <button type="submit">Envoyer</button>
+                </div>
+
+              </div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer">
+
+  <div class="container footer-top">
+    <div class="row gy-4">
+      
+      <!-- À propos -->
+      <div class="col-lg-5 col-md-12 footer-about">
+        <a href="index.html" class="logo d-flex align-items-center">
+          <span class="sitename">Pape Amadou Niang</span>
+        </a>
+        <p>Pape Amadou Niang, étudiant en Licence Informatique de Gestion, présente ses projets, compétences et réalisations en développement web.</p>
+        <div class="social-links d-flex mt-4">
+          <a href="mailto:Papeamadouniang1@gmail.com" aria-label="Envoyer un email"><svg class="social-logo" viewBox="0 0 24 24" aria-hidden="true"><path d="M2.5 5.5A2.5 2.5 0 0 1 5 3h14a2.5 2.5 0 0 1 2.5 2.5v13A2.5 2.5 0 0 1 19 21H5a2.5 2.5 0 0 1-2.5-2.5v-13ZM5 5a.5.5 0 0 0-.5.5v.26l7.5 5.63 7.5-5.63V5.5A.5.5 0 0 0 19 5H5Zm14.5 3.26-6.9 5.18a1 1 0 0 1-1.2 0L4.5 8.26v10.24A.5.5 0 0 0 5 19h14a.5.5 0 0 0 .5-.5V8.26Z"/></svg></a>
+          <a href="https://github.com/Papeamadoung" target="_blank" rel="noopener noreferrer" aria-label="Profil GitHub"><svg class="social-logo" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.18-3.37-1.18-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.61.07-.61 1 .07 1.53 1.03 1.53 1.03.9 1.53 2.35 1.09 2.92.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02A9.55 9.55 0 0 1 12 7.99c.85 0 1.7.12 2.5.34 1.91-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"/></svg></a>
+          <a href="https://www.linkedin.com/in/pape-amadou-niang-0b0b0b/" target="_blank" rel="noopener noreferrer" aria-label="Profil LinkedIn"><svg class="social-logo" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.48v6.26ZM5.32 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM3.54 20.45H7.1V9H3.54v11.45Z"/></svg></a>
+          <a href="https://www.instagram.com/papeamadouniang/" target="_blank" rel="noopener noreferrer" aria-label="Profil Instagram"><svg class="social-logo" viewBox="0 0 24 24" aria-hidden="true"><path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9a5.5 5.5 0 0 1-5.5 5.5h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2Zm0 2A3.5 3.5 0 0 0 4 7.5v9A3.5 3.5 0 0 0 7.5 20h9a3.5 3.5 0 0 0 3.5-3.5v-9A3.5 3.5 0 0 0 16.5 4h-9Zm9.75 1.5a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5ZM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0-3-3Z"/></svg></a>
+        </div>
+      </div>
+
+      <!-- Liens utiles -->
+      <div class="col-lg-2 col-6 footer-links">
+        <h4>Liens Utiles</h4>
+        <ul>
+          <li><a href="#hero">Accueil</a></li>
+          <li><a href="#about">À propos</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Projets</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Services -->
+      <div class="col-lg-2 col-6 footer-links">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="service-details.html">Développement web</a></li>
+          <li><a href="service-details.html">Applications mobiles</a></li>
+          <li><a href="service-details.html">UI/UX design</a></li>
+          <li><a href="service-details.html">Branding</a></li>
+          <li><a href="service-details.html">Maintenance et support</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+        <h4>Contact</h4>
+        <p>Dakar, Sénégal</p>
+        <p>Email: <a href="mailto:Papeamadouniang1@gmail.com">Papeamadouniang1@gmail.com</a></p>
+        <p>Téléphone: <span>+221 76 337 70 79</span></p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Copyright -->
+  <div class="container copyright text-center mt-4">
+    <p>© <span class="current-year">2026</span> <strong class="px-1 sitename">Pape Amadou Niang</strong> - Tous droits réservés</p>
+    <div class="credits">
+      Designed by <a href="https://github.com/Papeamadoung" target="_blank" rel="noopener noreferrer">Pape Amadou Niang</a>
+    </div>
+  </div>
+
+</footer>
+
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
+
+
+
+
+
+

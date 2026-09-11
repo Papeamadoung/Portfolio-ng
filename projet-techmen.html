@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>TechMen - Boutique E-commerce - Pape Amadou Niang</title>
+  <meta name="description" content="Détails du projet TechMen, une boutique e-commerce de smartphones développée en HTML, CSS et JavaScript.">
+  <meta name="keywords" content="TechMen, JavaScript, HTML, CSS, E-commerce, WhatsApp">
+
+  <!-- Open Graph & Social Sharing -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://mon-portfolio-five-livid.vercel.app/projet-techmen.html">
+  <meta property="og:title" content="TechMen — Boutique E-commerce — Pape Amadou Niang">
+  <meta property="og:description" content="Découvrez le projet TechMen : boutique e-commerce de smartphones développée en HTML, CSS et JavaScript.">
+  <meta property="og:image" content="https://mon-portfolio-five-livid.vercel.app/assets/img/portfolio/techmen-iphone-15-pro.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Favicons -->
+  <link href="assets/img/logo.jpg" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <script>
+    if (localStorage.getItem('portfolio-theme') === 'light') {
+      document.documentElement.classList.add('light-theme');
+    }
+  </script>
+</head>
+
+<body class="portfolio-details-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <img src="assets/img/logo.jpg" alt="Logo de Becaye Doumbouya">
+        <h1 class="sitename">Becaye</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html#hero">Accueil</a></li>
+          <li><a href="index.html#about">À propos</a></li>
+          <li><a href="index.html#resume">CV</a></li>
+          <li><a href="index.html#services">Services</a></li>
+          <li><a href="index.html#portfolio">Portfolio</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <!-- Theme Toggle Button -->
+      <button id="theme-toggle" class="theme-toggle" aria-label="Changer de thème">
+        <i class="bi bi-sun" id="theme-toggle-icon"></i>
+      </button>
+
+      <a class="btn-getstarted" href="index.html#contact">Me contacter</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title light-background">
+      <div class="container">
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Accueil</a></li>
+            <li class="current">Détails du projet</li>
+          </ol>
+        </nav>
+        <h1>TechMen</h1>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span class="subtitle">Détails</span>
+        <h2>TechMen — Boutique E-commerce</h2>
+        <p>Une boutique en ligne dédiée aux smartphones et accessoires.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-5">
+
+          <div class="col-lg-8">
+
+            <div class="portfolio-details-slider swiper init-swiper">
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": {
+                    "delay": 4000
+                  },
+                  "slidesPerView": 1,
+                  "spaceBetween": 0,
+                  "effect": "fade",
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  }
+                }
+              </script>
+              <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/techmen-iphone-15-pro.jpg" alt="TechMen — Smartphone en vente" class="img-fluid">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/techmen-s24-ultra.webp" alt="TechMen — Catalogue de smartphones" class="img-fluid">
+                </div>
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+
+            <div class="portfolio-content" data-aos="fade-up" data-aos-delay="200">
+              <h2>Développement de TechMen — Boutique e-commerce</h2>
+
+              <div class="meta-info">
+                <span class="date"><i class="bi bi-calendar"></i> 2026</span>
+                <span class="category"><i class="bi bi-tag"></i> E-commerce</span>
+                <span class="client"><i class="bi bi-mortarboard"></i> Projet personnel</span>
+              </div>
+
+              <p>
+                Ce projet, baptisé <strong>TechMen</strong>, consiste en la conception et le développement d'une boutique en ligne de smartphones et accessoires. L'interface est construite en HTML et CSS, tandis que JavaScript gère les interactions du catalogue, le panier et la commande.
+              </p>
+
+              <h3>Objectif</h3>
+              <p>
+                L'objectif était de créer une expérience d'achat simple et adaptée au mobile, avec une présentation claire des produits, une recherche rapide, un panier persistant et un parcours de commande directement connecté à WhatsApp.
+              </p>
+
+              <div class="highlights-box">
+                <h4>Fonctionnalités clés</h4>
+                <ul>
+                  <li><i class="bi bi-check-circle"></i> Catalogue de smartphones et accessoires avec recherche</li>
+                  <li><i class="bi bi-check-circle"></i> Panier interactif sauvegardé dans le navigateur</li>
+                  <li><i class="bi bi-check-circle"></i> Formulaire de paiement et de livraison</li>
+                  <li><i class="bi bi-check-circle"></i> Transmission de la commande via WhatsApp</li>
+                  <li><i class="bi bi-check-circle"></i> Connexion, inscription et profil client</li>
+                </ul>
+              </div>
+
+              <h3>Approche technique</h3>
+              <p>
+                Le projet s'appuie sur une architecture front-end légère en HTML, CSS et JavaScript. Les données du panier sont conservées avec <code>localStorage</code>, le mode sombre améliore le confort de navigation et le formulaire prépare automatiquement le message de commande WhatsApp.
+              </p>
+
+              <blockquote>
+                <i class="bi bi-quote quote-icon"></i>
+                <p>
+                  Concevoir cette application sous Symfony m'a permis de structurer des requêtes SQL complexes et de maîtriser les cycles de vie des formulaires et de la sécurité d'un framework professionnel.
+                </p>
+                <div class="author">
+                  <img src="assets/img/person/pape-avatar.jpeg" alt="Pape Amadou Niang">
+                  <div class="author-info">
+                    <h5>Pape Amadou Niang</h5>
+                    <span>Développeur web en formation</span>
+                  </div>
+                </div>
+              </blockquote>
+
+              <p>
+                Le code source de ce projet est accessible sur GitHub. Pour toute suggestion ou opportunité de collaboration, n'hésitez pas à me contacter via le formulaire de contact.
+              </p>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-4">
+
+            <div class="sidebar" data-aos="fade-up" data-aos-delay="200">
+
+              <div class="info-card">
+                <h3>Informations</h3>
+                <div class="info-item">
+                  <span class="label">Contexte</span>
+                  <span class="value">Projet personnel</span>
+                </div>
+                <div class="info-item">
+                  <span class="label">Catégorie</span>
+                  <span class="value">E-commerce / Web</span>
+                </div>
+                <div class="info-item">
+                  <span class="label">Période</span>
+                  <span class="value">2026</span>
+                </div>
+                <div class="info-item">
+                  <span class="label">Statut</span>
+                  <span class="value">Terminé</span>
+                </div>
+                <div class="info-item">
+                  <span class="label">Lien Live</span>
+                  <span class="value"><a href="https://github.com/Papeamadoung/TechMen" target="_blank" rel="noopener noreferrer">github.com/Papeamadoung/TechMen</a></span>
+                </div>
+                <div class="info-item">
+                  <span class="label">Technologies</span>
+                  <span class="value">HTML, CSS, JavaScript, localStorage</span>
+                </div>
+                <a href="https://github.com/Papeamadoung/TechMen" target="_blank" rel="noopener noreferrer" class="btn-primary mb-3 text-center d-block">
+                  <i class="bi bi-github"></i> Voir le code sur GitHub
+                </a>
+                <a href="index.html#contact" class="btn-secondary text-center d-block">
+                  <i class="bi bi-envelope"></i> Me contacter
+                </a>
+              </div>
+
+              <div class="share-card" data-aos="fade-up" data-aos-delay="300">
+                <h3>Partager</h3>
+                <div class="social-links">
+                  <a href="https://github.com/Papeamadoung/TechMen" target="_blank" rel="noopener noreferrer" class="github"><i class="bi bi-github"></i></a>
+                  <a href="https://www.linkedin.com/in/pape-amadou-niang-09b0b019b/" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+
+              <div class="tags-card" data-aos="fade-up" data-aos-delay="400">
+                <h3>Tags</h3>
+                <div class="tags">
+                  <a href="#">HTML</a>
+                  <a href="#">CSS</a>
+                  <a href="#">JavaScript</a>
+                  <a href="#">E-commerce</a>
+                  <a href="#">Backend</a>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Details Section -->
+
+  </main>
+
+  <footer id="footer" class="footer">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">Pape Amadou Niang</span>
+          </a>
+          <p>Portfolio de Pape Amadou Niang, étudiant en Informatique de Gestion et développeur web en formation.</p>
+          <div class="social-links d-flex mt-4">
+            <a href="mailto:papeamadoung@gmail.com" aria-label="Envoyer un email"><i class="bi bi-envelope"></i></a>
+            <a href="https://github.com/Papeamadoung" target="_blank" rel="noopener noreferrer" aria-label="Profil GitHub"><i class="bi bi-github"></i></a>
+            <a href="https://www.linkedin.com/in/pape-amadou-niang-09b0b019b/" target="_blank" rel="noopener noreferrer" aria-label="Profil LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <a href="https://www.instagram.com/p_amadou_ng/" target="_blank" rel="noopener noreferrer" aria-label="Profil Instagram"><i class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Liens utiles</h4>
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="index.html#about">À propos</a></li>
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="terms.html">Conditions d’utilisation</a></li>
+            <li><a href="privacy.html">Politique de confidentialité</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="service-details.html">Développement web</a></li>
+            <li><a href="service-details.html">Applications mobiles</a></li>
+            <li><a href="service-details.html">UI/UX design</a></li>
+            <li><a href="service-details.html">Branding</a></li>
+            <li><a href="service-details.html">Maintenance et support</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <h4>Contact</h4>
+          <p>Dakar, Sénégal</p>
+          <p class="mt-4"><strong>Téléphone :</strong> <span>+221 77 395 69 66</span></p>
+          <p><strong>Email :</strong> <a href="mailto:papeamadoung@gmail.com">papeamadoung@gmail.com</a></p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span class="current-year">2026</span> <strong class="px-1 sitename">Pape Amadou Niang</strong> <span>Tous droits réservés</span></p>
+      <div class="credits">
+        Designed by <a href="https://github.com/Papeamadoung" target="_blank" rel="noopener noreferrer">Pape Amadou Niang</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
+

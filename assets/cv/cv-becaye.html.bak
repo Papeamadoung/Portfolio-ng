@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CV - Becaye Doumbouya</title>
+  <style>
+    @page { size: A4; margin: 0; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #e9edf2; color: #1f2933; font-family: Arial, sans-serif; }
+    .page { width: 210mm; min-height: 297mm; margin: 0 auto; background: #fff; padding: 17mm 17mm 14mm; }
+    header { display: flex; justify-content: space-between; gap: 20px; padding-bottom: 14px; border-bottom: 4px solid #1e6474; }
+    .avatar { width: 30mm; height: 30mm; flex: 0 0 30mm; border: 3px solid #dce6e8; border-radius: 50%; object-fit: cover; }
+    h1 { margin: 0; color: #164e5b; font-size: 32px; letter-spacing: .5px; }
+    .title { margin: 5px 0 0; color: #d06b3c; font-size: 15px; font-weight: bold; }
+    .contact { text-align: right; color: #425466; font-size: 10.5px; line-height: 1.65; }
+    .contact a { color: inherit; text-decoration: none; }
+    main { display: grid; grid-template-columns: 1.55fr 1fr; gap: 24px; padding-top: 15px; }
+    section { margin-bottom: 15px; }
+    h2 { margin: 0 0 8px; padding-bottom: 5px; border-bottom: 2px solid #dce6e8; color: #164e5b; font-size: 13px; text-transform: uppercase; letter-spacing: 1px; }
+    h3 { margin: 0; color: #253b45; font-size: 12.5px; }
+    p { margin: 5px 0 0; font-size: 10.5px; line-height: 1.48; }
+    .muted { color: #667784; font-size: 10px; }
+    .item { margin-bottom: 12px; }
+    .item:last-child { margin-bottom: 0; }
+    .education-description { font-size: 9.5px; line-height: 1.35; }
+    .date { float: right; color: #d06b3c; font-size: 10px; font-weight: bold; }
+    ul { margin: 6px 0 0; padding-left: 16px; }
+    li { margin: 4px 0; font-size: 10.5px; line-height: 1.35; }
+    .skills { display: flex; flex-wrap: wrap; gap: 5px; }
+    .skill { padding: 5px 7px; border-radius: 3px; background: #edf5f5; color: #164e5b; font-size: 9.5px; font-weight: bold; }
+    .profile { margin-bottom: 15px; font-size: 11px; line-height: 1.55; }
+    .link { color: #1e6474; word-break: break-word; }
+    @media print { body { background: #fff; } .page { margin: 0; } }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <img class="avatar" src="../img/person/becaye-avatar.jpeg" alt="Photo de Becaye Doumbouya">
+      <div>
+        <h1>Becaye Doumbouya</h1>
+        <p class="title">Etudiant en Informatique de Gestion | Developpeur Web en formation</p>
+      </div>
+      <div class="contact">
+        Dakar, Senegal<br>
+        <a href="tel:+221773956966">+221 77 395 69 66</a><br>
+        <a href="mailto:doumbiabecaye7@gmail.com">doumbiabecaye7@gmail.com</a><br>
+        github.com/HYPNOTYZEDCHART<br>
+        linkedin.com/in/becaye-doumbouya-b90947411/
+      </div>
+    </header>
+
+    <main>
+      <div>
+        <section>
+          <h2>Profil</h2>
+          <p class="profile">Etudiant en Licence Informatique de Gestion, passionne par le developpement web, le backend, les bases de donnees et les systemes d'information. Je construis progressivement un profil Full-Stack Developer et j'integre l'IA generative dans mes flux de travail pour accelerer la conception et l'innovation.</p>
+        </section>
+
+        <section>
+          <h2>Projets</h2>
+          <div class="item">
+            <span class="date">2026</span>
+            <h3>TechLink - Boutique e-commerce</h3>
+            <p class="muted">Projet personnel</p>
+            <p>Boutique de produits electroniques au Senegal avec catalogue, filtres, recherche, comptes clients, panier, commandes et back-office administrateur.</p>
+            <p class="muted">Symfony 7, PHP, MariaDB</p>
+          </div>
+          <div class="item">
+            <span class="date">2026</span>
+            <h3>Plateforme de developpeurs freelances</h3>
+            <p class="muted">Projet realise</p>
+            <p>Plateforme web de recherche et de mise en relation avec des developpeurs freelances.</p>
+            <p class="muted">HTML, CSS, JavaScript, Node.js, npm</p>
+          </div>
+          <div class="item">
+            <span class="date">2026</span>
+            <h3>CRM - Customer Relationship Management</h3>
+            <p class="muted">Projet personnel en preparation</p>
+            <p>Application destinee a gerer les clients, contacts, interactions commerciales et donnees de la relation client.</p>
+            <p class="muted">Symfony, PHP, Doctrine ORM, MariaDB, Twig, Tailwind CSS</p>
+          </div>
+        </section>
+
+        <section>
+          <h2>Services et interets</h2>
+          <ul>
+            <li>Developpement web et solutions backend</li>
+            <li>Conception d'interfaces UI/UX responsives</li>
+            <li>Bases de donnees et systemes d'information</li>
+            <li>IA generative et assistance au developpement</li>
+          </ul>
+        </section>
+      </div>
+
+      <aside>
+        <section>
+          <h2>Formation</h2>
+          <div class="item">
+            <span class="date">Depuis 2025</span>
+            <h3>Licence Informatique de Gestion</h3>
+            <p class="muted">UCAO ISG Saint Michel - Dakar</p>
+            <p class="education-description">Formation pluridisciplinaire en programmation, gÃ©nie logiciel, bases de donnÃ©es, data et IA, systÃ¨mes et rÃ©seaux, gestion et mÃ©thodes professionnelles.</p>
+          </div>
+          <div class="item">
+            <span class="date">2024 - 2025</span>
+            <h3>Baccalaureat STEG</h3>
+            <p class="muted">CSPA</p>
+          </div>
+          <div class="item">
+            <span class="date">2021 - 2022</span>
+            <h3>BFEM</h3>
+            <p class="muted">CSPA</p>
+          </div>
+          <div class="item">
+            <span class="date">2015 - 2016</span>
+            <h3>CFEE</h3>
+            <p class="muted">Keur MÃ¨re Teresa</p>
+          </div>
+        </section>
+
+        <section>
+          <h2>Competences</h2>
+          <div class="skills">
+            <span class="skill">PHP</span><span class="skill">Symfony</span><span class="skill">Twig</span><span class="skill">JavaScript</span><span class="skill">Node.js</span><span class="skill">HTML / CSS</span><span class="skill">SQL</span><span class="skill">MySQL</span><span class="skill">MariaDB</span><span class="skill">Bootstrap</span><span class="skill">Tailwind CSS</span><span class="skill">Git / GitHub</span><span class="skill">Composer</span><span class="skill">IA generative</span>
+          </div>
+        </section>
+
+        <section>
+          <h2>Liens</h2>
+          <p><strong>GitHub</strong><br><span class="link">github.com/HYPNOTYZEDCHART</span></p>
+          <p><strong>LinkedIn</strong><br><span class="link">linkedin.com/in/becaye-doumbouya-b90947411/</span></p>
+          <p><strong>Instagram</strong><br><span class="link">instagram.com/ptitjr_becaye_dmy/</span></p>
+        </section>
+      </aside>
+    </main>
+  </div>
+</body>
+</html>
