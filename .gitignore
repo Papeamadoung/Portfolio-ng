@@ -5,4 +5,5 @@
 *.exe
 *-recovery-codes*
 *recovery-codes*
+/mon-portfolio/
 
